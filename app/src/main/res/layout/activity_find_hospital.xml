@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pawan_pc.cancerdiaganosis.FindHospital">
+    <AutoCompleteTextView
+        android:id="@+id/hospital_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type a hospital name"
+        android:background="@drawable/shapebtn"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:maxLines="2"
+
+        />
+    <Button
+        android:id="@+id/search_hosp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapebtn"
+        android:text="Search"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        />
+    <ListView
+        android:id="@+id/search_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </ListView>
+
+</LinearLayout>

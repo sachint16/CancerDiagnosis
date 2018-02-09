@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/hosp_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:drawableLeft="@drawable/ic_domain_black_24dp"
+        android:textSize="14dp"
+        android:textColor="#6262b9"
+        android:layout_weight="5"
+        android:maxLines="1"
+        />
+    <TextView
+        android:id="@+id/hosp_dis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance"
+        android:padding="10dp"
+        android:textSize="14dp"
+        android:textColor="#ff0000"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/ic_add_location_black_24dp"
+        android:maxLines="1"
+
+
+
+        /></LinearLayout>
+    <TextView
+        android:id="@+id/hos_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hospital name"
+        android:padding="8dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:textSize="12dp"
+        android:maxLines="2"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+
+        />
+
+
+</LinearLayout>

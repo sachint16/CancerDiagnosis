@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.pawan_pc.cancerdiaganosis.Diagnosis">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+<AutoCompleteTextView
+    android:id="@+id/symtoms"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shapebtn"
+    android:hint="Enter a Symptom"
+    android:padding="10dp"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    />
+        <Button
+            android:id="@+id/add_symptom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:background="@drawable/shapebtn"
+            android:layout_gravity="center_horizontal"
+
+            />
+    <ListView
+        android:id="@+id/symptom_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+
+        ></ListView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+
+
+        >
+
+
+        <Button
+            android:id="@+id/final_analysis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Analyse"
+            android:background="@drawable/shapebtn" />
+    </LinearLayout>
+    <com.github.jlmd.animatedcircleloadingview.AnimatedCircleLoadingView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/circle_loading_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00b3d9e9"
+        android:layout_centerInParent="true"
+        app:mainColor="@color/main_color"
+        app:secondaryColor="@color/secondary_color"
+        app:textColor="#ff6060"
+        />
+</RelativeLayout>

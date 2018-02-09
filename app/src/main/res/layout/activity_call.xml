@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pawan_pc.cancerdiaganosis.Call">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="contact numbers are sorted based on your nearest located hospitals."
+        android:textAlignment="center"
+        android:padding="@dimen/activity_horizontal_margin"
+
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        />
+    <Button
+        android:id="@+id/call_112"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapeemer"
+        android:text="112"
+        android:drawableLeft="@drawable/ic_call_black_24dp"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:textColor="#ff0000"
+        android:textSize="22dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        />
+    <TextView
+        android:id="@+id/load"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="load more"
+        android:textColor="#0000ff"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        />
+    <ListView
+        android:id="@+id/contact_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="1dp"
+        >
+
+
+    </ListView>
+</LinearLayout>

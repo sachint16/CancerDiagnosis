@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.pawan_pc.cancerdiaganosis.Emengency">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Emergency Options"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:textAlignment="center"
+        style="@style/Base.TextAppearance.AppCompat.Widget.PopupMenu.Header"
+        android:textStyle="normal"
+
+
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        />
+    <Button
+        android:id="@+id/call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Make Call"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:drawableRight="@drawable/ic_call_black_24dp"
+        android:drawableLeft="@drawable/ic_add_alert_black_24dp"
+        android:background="@drawable/shapebtn"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        />
+    <Button
+        android:id="@+id/find_hos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapebtn"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:text="Find Nearest cancer hospital"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:drawableLeft="@drawable/ic_search_black_24dp"
+        android:drawableRight="@drawable/ic_domain_black_24dp"
+        />
+    <Button
+        android:id="@+id/tips"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shapebtn"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text="Instant tips"
+        android:drawableRight="@drawable/ic_local_pharmacy_black_24dp"
+        android:drawableLeft="@drawable/ic_queue_play_next_black_24dp"
+        android:textSize="14dp"
+        />
+
+
+</LinearLayout>

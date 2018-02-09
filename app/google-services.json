@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "896135746282",
+    "firebase_url": "https://cancer-diagnosis.firebaseio.com",
+    "project_id": "cancer-diagnosis",
+    "storage_bucket": "cancer-diagnosis.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896135746282:android:7077c36b798a0b8f",
+        "android_client_info": {
+          "package_name": "com.example.pawan_pc.cancerdiaganosis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896135746282-f28f55ua62i34ei7cpoh0n5253f4ekd1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5uVjt-cugrbSntNN8nuE-H8zy2nSIah0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

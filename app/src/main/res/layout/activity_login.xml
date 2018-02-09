@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+
+    tools:context="com.example.pawan_pc.cancerdiaganosis.Login">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/docss"
+        android:alpha="0.3"
+        />
+    <LinearLayout
+        android:id="@+id/LL1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edittext"
+        android:layout_gravity="center"
+        android:hint="username or email"
+        android:padding="5dp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+
+
+        />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:background="@drawable/edittext"
+            android:layout_gravity="center"
+            android:hint="password"
+            android:padding="5dp"
+            android:inputType="textPassword"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+
+
+            />
+        <TableRow android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+
+            >
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shapebtn"
+            android:text="Login"
+            android:layout_weight="1"
+            />
+            <Button
+                android:id="@+id/back_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shapeemer"
+                android:text="back"
+                android:layout_weight="1"
+                android:layout_marginLeft="16dp"
+
+
+
+                />
+        </TableRow>
+    </LinearLayout>
+</FrameLayout>
